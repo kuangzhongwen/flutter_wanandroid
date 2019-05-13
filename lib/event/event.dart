@@ -1,6 +1,8 @@
+import 'package:flutter_wanandroid/common/component_index.dart';
+
 class StatusEvent {
   String labelId;
-  int status;
+  RefreshStatus status;
   int cid;
 
   StatusEvent(this.labelId, this.status, {this.cid});
